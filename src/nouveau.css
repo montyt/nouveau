@@ -1,0 +1,263 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.header_container {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #f5e7ae;
+ }
+ .logo {
+    float: left;
+ }
+ .logo img {
+    height: 100px;
+    width: auto;
+    margin-left: 37px;
+ }
+ .contact_button_container {
+    float: right;
+    padding: 22px;
+    margin-right: 25px;
+ }
+ .contact_button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+ }
+ .contact_button:hover {
+   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+   -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+   transition: all 0.4s ease 0s;
+}
+.hero {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 100px;
+}
+.hero::before {
+   content: "";
+   position: absolute;
+   top: 100px;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(Vinyard.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(100%);
+}
+.hero-content {
+   position: relative; 
+   font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+}
+.hero-title {
+   font-family: "Monserrat", sans-serif;
+   font-weight: 300;
+   font-size: 130px;
+   line-height: 114px;
+   margin-bottom: 0;
+}
+.hero-subtitle {
+   font-family: Lato;
+   font-weight: 10;
+   font-size: 95px;
+   line-height: 114px;
+   margin-top: 1rem;
+}
+
+.menu_container {
+   position: absolute;
+   width: 100%;
+   height: 100px;
+   left: 0px;
+   background: #f5e7ae;
+   display: flex;
+   justify-content: space-evenly;
+   color: black;
+   margin-bottom: 100px;
+}
+.menu_container li {
+   list-style: none;
+   margin-top: 38px;
+   
+}
+.menu_container a {
+   text-decoration: none;
+   color: black;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px; 
+}
+.story {
+   margin-top: 200px;
+   left: 0px;
+   text-align: center;
+   width: 100%;
+   background: #fffff9;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px; 
+}
+.ourProduct img {
+   width: 50%;
+   height: auto;
+   float: right;
+}
+.ourProduct h2 {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 64px;
+   line-height: 77px;
+   text-align: center;
+}
+.ourProduct p {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+}
+.product_container {
+   width: 40%;
+   margin-left: 5%;
+   padding-top: 40px;
+   padding-right: 0;
+   padding-left: 0;
+   float: left;
+}
+.theBenefits img {
+   width: 50%;
+   height: auto;
+   float: left;
+}
+.theBenefits h2 {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 64px;
+   line-height: 77px;
+   text-align: center;
+}
+.theBenefits p {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+}
+.benefits_container {
+   width: 40%;
+   margin-right: 5%;
+   padding-top: 40px;
+   padding-right: 0;
+   padding-left: 0;
+   float: right;
+}
+.quickFacts img {
+   width: 50%;
+   height: auto;
+   float: right;
+}
+.quickFacts h2 {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 64px;
+   line-height: 77px;
+   text-align: center;
+}
+.quickFacts p {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   overflow: hidden;
+}
+.facts_container {
+   width: 40%;
+   margin-left: 5%;
+   padding-top: 40px;
+   padding-right: 0;
+   padding-left: 0;
+   float: left;
+}
+.ourTeam {
+   margin-top: 1446px;
+   left: 0px;
+   text-align: center;
+   width: 100%;
+   background: #f5e7ae;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px; 
+
+}
+.profile {
+
+   padding-bottom: 10px;
+}
+.profile_pic {
+   float: left;
+   border-radius: 50%;
+   padding: 20px;
+   height: 125px;
+   width: auto;
+   margin-left: 10%;
+}
+.profile_container {
+   padding-top: 3px;
+   margin-right: 10%;
+   text-align: left;
+}
+.getInTouch {
+   left: 0px;
+   text-align: center;
+   width: 100%;
+   background: #f5e7ae;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px; 
+}
+.forms {
+   width: 50%;
+   margin-left: 25%;
+   padding-top: 45px;
+}
